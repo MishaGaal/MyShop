@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabBackground="@color/logoColor"
+        app:tabTextColor="@color/logoColor1"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category">
+
+        </android.support.design.widget.TabItem>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category">
+
+        </android.support.design.widget.TabItem>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category" />
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        app:itemIconTint="@color/NightModeBackground"
+        app:itemTextColor="@color/NightModeBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemsCat"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/navigation"></android.support.design.widget.BottomNavigationView>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/itemsCat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/fragmet_catergory"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

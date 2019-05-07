@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_1"
+            android:title="Night mode" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_2"
+            android:title="Russian language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Your details">
+        <EditTextPreference
+            android:defaultValue="@string/addname"
+            android:key="edit_text_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/addname" />
+        <EditTextPreference
+            android:defaultValue="@string/phone"
+            android:key="edit_text_phone"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/addphone" />
+        <EditTextPreference
+            android:defaultValue="@string/addmail"
+            android:key="edit_text_email"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/addmail" />
+        <EditTextPreference
+            android:defaultValue="@string/addadress"
+            android:key="edit_text_adress"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/addadress" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

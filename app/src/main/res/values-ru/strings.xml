@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwiftShop</string>
+    <string name="products">Продукты</string>
+    <string name="categories">Категории</string>
+    <string name="categories2">Категории :</string>
+    <string name="Basket">"Корзина "</string>
+    <string name="Info">Ниформация</string>
+    <string name="Name">Swift Shop</string>
+    <string name="phone">+380972363550</string>
+    <string name="infoLogo">Лого</string>
+    <string name="Contacts">Связь</string>
+    <string name="add">Купить</string>
+    <string name="edit">Посмотреть</string>
+    <string name="del">Убрать</string>
+    <string name="Ok">Ок</string>
+    <string name="settings">Настройки</string>
+    <string name="backup">Сохраить</string>
+    <string name="upload">Загрузить</string>
+    <string name="top">Новинки:</string>
+    <string name="price">цена:</string>
+    <string name="category">Категория:</string>
+    <string name="oreder">Заказ</string>
+    <string name="cancel">отмена</string>
+    <string name="basket">Корзина :</string>
+    <string name="order">заказать</string>
+    <string name="addname">Введите имя</string>
+    <string name="addadress">Введите адрес</string>
+    <string name="addcity">Введите город</string>
+    <string name="addprovinc">Введите  область</string>
+    <string name="addphone">Введите телефон</string>
+    <string name="addmail">Введите е-mail</string>
+    <string name="addcoment">Введите  комент</string>
+    <string name="makeorder">Заказать</string>
+    <string name="clear">Очистить корзину</string>
+    <string name="question">Удалть прежний заказ?</string>
+    <string name="long_descrip">Часы - это часы, предназначенные для ношения или ношения человеком.</string>
+    <string name="action">Акция:</string>
+    <string name="home">Домой</string>
+</resources>

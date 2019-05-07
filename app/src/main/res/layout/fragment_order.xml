@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundColor" >
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lytContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <mike.galitsky.myshop.RequiredEditText
+                android:id="@+id/edtName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/addname"
+                android:inputType="textCapWords"
+                android:padding="7dp"
+                app:required="true"
+                android:textSize="14sp" >
+            </mike.galitsky.myshop.RequiredEditText>
+
+            <mike.galitsky.myshop.RequiredEditText
+                android:id="@+id/edtAdress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                app:required="true"
+                android:hint="@string/addadress"
+                android:inputType="textPostalAddress"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </mike.galitsky.myshop.RequiredEditText>
+
+            <EditText
+                android:id="@+id/edtCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/addcity"
+                android:textSize="14sp"
+                android:ems="10" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/addprovinc"
+                android:textSize="14sp"
+                android:ems="10" >
+            </EditText>
+
+
+            <mike.galitsky.myshop.RequiredEditText
+                android:id="@+id/edtPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/addphone"
+                app:required="true"
+                android:inputType="phone"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </mike.galitsky.myshop.RequiredEditText>
+
+            <mike.galitsky.myshop.RequiredEditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                app:required="true"
+                android:hint="@string/addmail"
+                android:inputType="textEmailAddress"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </mike.galitsky.myshop.RequiredEditText>
+
+            <EditText
+                android:id="@+id/edtComment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="top|left"
+                android:hint="@string/addcoment"
+                android:inputType="textMultiLine"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/buttonSend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/makeorder"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+</RelativeLayout>

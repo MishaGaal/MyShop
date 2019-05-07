@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#484D48</color>#008577#008577
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="logoColor">#FF5722</color>#FFFFFF
+    <color name="backgroundColor">#D2F5E7B8</color>#39EEF8
+    <color name="categoryBackground">#67C4F7</color>
+    <color name="NightModeBackground">#A8000000</color>
+
+    <color name="colorPrimary1">#FFEB3B</color>
+    <color name="colorPrimaryDark1">#FF5722</color>
+    <color name="colorAccent1">#D81B60</color>
+    <color name="logoColor1">#FFFFFF</color>
+</resources>

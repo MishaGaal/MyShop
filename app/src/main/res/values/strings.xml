@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SwiftShop</string>
+    <string name="products">Products</string>
+    <string name="categories">Categories</string>
+    <string name="categories2">Categories :</string>
+    <string name="Basket">"Basket "</string>
+    <string name="Info">Information</string>
+    <string name="Name">Swift Shop</string>
+    <string name="phone">+380972363550</string>
+    <string name="infoLogo">Logo</string>
+    <string name="Contacts">Contact us</string>
+    <string name="add">Buy</string>
+    <string name="edit">View</string>
+    <string name="del">delete</string>
+    <string name="Ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="backup">BackUp</string>
+    <string name="upload">UpLoad</string>
+    <string name="top">Newest:</string>
+    <string name="price">price:</string>
+    <string name="category">category:</string>
+    <string name="oreder">order</string>
+    <string name="cancel">cancel</string>
+    <string name="basket">Basket :</string>
+    <string name="order">order</string>
+    <string name="addname">Enter your name</string>
+    <string name="addadress">Enter your adress</string>
+    <string name="addcity">Enter your city name</string>
+    <string name="addprovinc">Enter your state</string>
+    <string name="addphone">Enter your phone</string>
+    <string name="addmail">Enter your e-mail</string>
+    <string name="addcoment">Write something :D</string>
+    <string name="makeorder">Make order</string>
+    <string name="clear">Clear basket</string>
+    <string name="question">Delete previous order?</string>
+    <string name="long_descrip">A watch is a timepiece intended to be carried or worn by a person. It is designed to keep working despite the motions caused by the person\'s activities.</string>
+    <string name="action">Action:</string>
+    <string name="home">Home</string>
+
+
+</resources>

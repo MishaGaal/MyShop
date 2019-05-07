@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "661812678696",
+    "firebase_url": "https://webacademy-8ee61.firebaseio.com",
+    "project_id": "webacademy-8ee61",
+    "storage_bucket": "webacademy-8ee61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661812678696:android:d66b05f7b34264c3",
+        "android_client_info": {
+          "package_name": "mike.galitsky.lecture17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661812678696-adpjggkdmq0vs2u5l2md91vo45t0bv6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJmPHtWvRo5RU2yxXJ3TD2m2ZxCjndrDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661812678696-adpjggkdmq0vs2u5l2md91vo45t0bv6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
